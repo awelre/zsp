@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 | NOT FOUND</title>
+    <link rel="icon" href="logo.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Dela Gothic One', cursive;
+            background-color: #fff;
+            color: #000;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .error-code {
+            font-size: 12rem;
+            margin: 0;
+            line-height: 0.8;
+            color: #ff0000;
+            border-bottom: 15px solid #000;
+            padding-bottom: 20px;
+        }
+
+        .message {
+            font-size: 1.8rem;
+            margin: 50px 20px;
+            max-width: 700px;
+        }
+
+        .btn-redirect {
+            display: inline-block;
+            background: #ff0000;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.8rem;
+            padding: 25px 60px;
+            border: 8px solid #000;
+            border-radius: 150px;
+            transition: 0.2s ease-in-out;
+        }
+
+        .btn-redirect:hover {
+            background: #000;
+            transform: scale(1.05) rotate(2deg);
+        }
+
+        @media (max-width: 768px) {
+            .error-code { font-size: 7rem; }
+            .message { font-size: 1.2rem; }
+            .btn-redirect { font-size: 1.2rem; padding: 20px 40px; }
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="error-code">404</h1>
+    
+    <p class="message">
+        СТРАНИЦА ПОТЕРЯНА ИЛИ ЕЕ НИКОГДА НЕ БЫЛО
+    </p>
+
+    <a href="https://zamena.sonikplay.v6.rocks/streams" class="btn-redirect">ПЕРЕЙТИ К СТРИМАМ</a>
+
+</body>
+</html>
